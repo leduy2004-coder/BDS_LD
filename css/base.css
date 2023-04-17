@@ -1,0 +1,116 @@
+
+:root {
+    --primary: #656565;
+    --red: #e96b56;
+    --text: #353535;
+    --black: #111;
+    --green: #6F9B63;
+    --white: #fff;
+}
+
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; 
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* animation */
+
+.slideInLeft {
+    animation-name: slideInLeft;
+}
+.slideInRight {
+    animation-name: slideInRight;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translate3d(-10%,0,0);
+        visibility: visible;
+    }
+    100% {
+        transform: translateZ(0);
+    }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translate3d(10%,0,0);
+        visibility: visible;
+    }
+    100% {
+        transform: translateZ(0);
+    }
+}
+
+/* animation */
+a {
+    color: black;
+}
+a:hover {
+    color: var(--green) !important;
+}
+.center {
+    text-align: center;
+}
+.active {
+    background-color: var(--green);
+   
+}
+.active:hover {
+    cursor: auto !important;
+    color: black !important;
+}
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid__column-5 {
+    padding-left: 12px;
+    width: 41.6667%;
+    padding-right: 12px;
+}
+.grid__column-7 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 58%;
+}
+.grid__column-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 33%;
+}
+.grid__column-8 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 66%;
+}
+.grid__column-6 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 50%;
+}
+.grid__column-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
