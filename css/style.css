@@ -64,13 +64,20 @@
 
 .header {
     max-width: 100%;
-    height: 50vh;
-    background: url(/img/hinhnen.jpeg) no-repeat center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.header__img {
+    width: 100%;
+    position: relative;
+}
+.header__img img {
+    width: 100%;
+    height: 80vh;
+}
 .header__content {
+    position: absolute;
     border: 5px solid var(--green);
 }
 .header__text {
