@@ -337,7 +337,7 @@
     font-weight: 400;
     color: var(--black);
     line-height: 2rem;
-    height: 3.6rem;
+    height: 4rem;
     overflow: hidden;
     /*làm 3 chấm*/
     display: block;
@@ -415,6 +415,7 @@
 .home-product__out-origin {
     display: flex;
     margin: 1rem 0;
+    height: 3rem;
 }
 .home-product-out__desc {
     margin-right: 2rem;

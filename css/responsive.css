@@ -91,6 +91,9 @@
         padding: 1rem;
         
     } 
+    .top-highlight {
+        line-height: 1;
+    }
     .top-highlights-desc {
         -webkit-line-clamp: 4;
     }
