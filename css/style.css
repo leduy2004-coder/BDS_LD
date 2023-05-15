@@ -13,7 +13,7 @@
 .nav__width {
     position: relative;
     max-width: 100%;
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -207,6 +207,7 @@
 }
 .top-highlight img {
     width: 50%;
+    height: 27rem;
     border-radius: 8px 0 0 8px;
 }
 .top-highlights {
