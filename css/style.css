@@ -372,7 +372,7 @@
     overflow: auto;
     scroll-behavior: smooth;
     scroll-snap-type: both;
-    width: 1200px;
+    width: 1190px;
     margin: 0 auto;
 }
 .out-wrapper::-webkit-scrollbar {
