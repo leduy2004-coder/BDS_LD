@@ -9,6 +9,7 @@
     background-color: var(--white);
     padding: 2rem 0 1rem 0;
     z-index: 5;
+    background-color: #dfdada;
 }
 .nav__width {
     position: relative;
@@ -80,7 +81,114 @@
     font-size: 2rem;
     gap: 4rem;
 }
+/* nav */
 
+/* login-register */
+.modal-input {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0 , 0 , 0.4);
+    /* display: none; */
+    z-index: 100;
+    display: none;
+}
+
+.login-register {
+    position: fixed;
+    background-color: white;
+    z-index: 101;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 70vh;
+    width: 30vw;
+    padding: 4rem;
+    border-radius: 5px;
+    display: none;
+}
+.auth--header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+.auth--header-login {
+    color: var(--green);
+}
+.auth--header-btn {
+    cursor: pointer;
+}
+.auth--header-btn:hover {
+    color: var(--green);
+}
+
+.auth--form-group {
+    display: flex;
+    margin: 2rem 0;
+}
+.auth--form-input {
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.auth--controls {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10rem 0;
+}
+.auth--control-btn {
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+.auth--control-btn:last-child {
+    background-color: var(--green);
+}
+.auth--control-btn:hover {
+    cursor: pointer;
+    background-color: var(--green);
+
+}
+.auth--form-connect {
+    background-color: #ddd8d8;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transform: translateX(-4rem);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.auth--form-text {
+    font-size: 1.9rem;
+    color: var(--green); 
+    text-align: center;
+}
+.auth--form-content {
+    font-size: 1.3rem;
+    color: var(--green); 
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+
+/* login-register */
 
 /* header */
 
@@ -359,7 +467,7 @@
     justify-content: space-between;
 }
 .origin__price {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--green);
     font-weight: 500;
 }
